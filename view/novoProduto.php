@@ -36,7 +36,7 @@
   <label for="formGroupExampleInput2" class="form-label">Quantidade no estoque:</label>
   <input type="text" class="form-control" id="quantidade" name="quantidade">
 </div>
-<button type="button" class="btn btn-warning" id="cadastrar" name="cadastrar">Cadastrar</button>
+<button type="submit" class="btn btn-warning" id="cadastrar" name="cadastrar">Cadastrar</button>
 </form>
 </div>
 </body>
