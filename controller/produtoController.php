@@ -10,7 +10,7 @@ if (array_key_exists('cadastrar', $postProd)) {
     $prod->setValor($postProd['valor']);
     $prod->setQuantidade($postProd['quantidade']);
     $arquivo = new Arquivo();
-    $arquivo->salvaProdutoArquivo($produto);
+    $arquivo->salvaProdutoArquivo($prod);
 
-    echo $produto;
+    header('Location: ../index.php');
 }
